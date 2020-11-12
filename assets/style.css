@@ -1,0 +1,61 @@
+/* Cascading stylesheets for Leanheat Dash */
+/* TODO: Class names to CamelCaps*/
+
+
+/* TODO: Rename to FrontPageContainer */
+.Container {
+    padding-top: 10.0em;
+    max-width: 500px;
+    margin: auto;
+}
+
+.Container a {
+    color: inherit;
+}
+
+.Card {
+    display: inline-block;
+    width: 20.0em;
+    height: 10.0em;
+    border: 1px solid #666;
+    border-radius: .4em;
+    padding: .8em;
+    margin: 0 2.0em 2.0em 0;
+    font-size: 1.2em;
+    position: relative;
+    background-color: #fff;
+    box-shadow: .2em .2em .5em #333;
+    word-wrap: break-word;
+}
+
+.Container .Card:hover {
+    background-color: #eee;
+}
+
+
+.Card h2 {
+    text-align: center;
+    font-family: Courier New;
+}
+
+.Card p {
+    font-family: Courier New;
+    font-size: 0.9em;
+}
+
+.Card p:before {
+    content: "❯ ";
+    color: orange;
+}
+
+.DashboardContainer {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 10.0em;
+}
+
+.DefaultGraph {
+    border-bottom: thin lightgrey solid;
+    background-color: rgb(250, 250, 250);
+    padding: 10px 5px;
+}
