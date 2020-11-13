@@ -51,6 +51,14 @@ main_layout = html.Div(
     className="Container",
     children=[
         html.H1("Plotly Dash demo"),
+        html.P(html.I("Jaakko Luttinen - November 16, 2020")),
+        html.P(html.I("Lead Data Scientist @ Leanheat by Danfoss")),
+        html.Ul(
+            [
+                html.Li("What is Plotly Dash?"),
+                html.Li("Why not Jupyter Notebooks?"),
+            ]
+        ),
     ] + [
         html.A(
             html.Div(
@@ -62,6 +70,10 @@ main_layout = html.Div(
             ),
             href=url,
         ) for (url, page) in subpages
+    ] + [
+        html.Ul(
+            html.Li("Show our real production Dash")
+        ),
     ]
 )
 
