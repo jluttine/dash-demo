@@ -1,10 +1,6 @@
 /* Cascading stylesheets for Leanheat Dash */
-/* TODO: Class names to CamelCaps*/
 
-
-/* TODO: Rename to FrontPageContainer */
 .Container {
-    padding-top: 10.0em;
     max-width: 500px;
     margin: auto;
 }
@@ -51,7 +47,6 @@
 .DashboardContainer {
     max-width: 1000px;
     margin: auto;
-    padding-top: 10.0em;
 }
 
 .DefaultGraph {
