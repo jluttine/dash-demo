@@ -53,15 +53,15 @@ main_layout = html.Div(
         html.H1("Plotly Dash demo"),
         html.P(html.I("Jaakko Luttinen - November 16, 2020")),
         html.P(html.I("Lead Data Scientist @ Leanheat by Danfoss")),
-        html.P("This demo is available at:"),
-        html.P(
-            html.A(
-                "https://github.com/jluttine/dash-demo",
-                href="https://github.com/jluttine/dash-demo"
-            )
-        ),
         html.Ul(
             [
+                html.Li([
+                    "This demo is available at: ",
+                    html.A(
+                        "https://github.com/jluttine/dash-demo",
+                        href="https://github.com/jluttine/dash-demo"
+                    )
+                ]),
                 html.Li("What is Plotly Dash?"),
                 html.Li("Why not Jupyter Notebooks?"),
             ]
@@ -78,9 +78,16 @@ main_layout = html.Div(
             href=url,
         ) for (url, page) in subpages
     ] + [
-        html.Ul(
+        html.Ul([
+            html.Li([
+                "So much more cool features: ",
+                html.A(
+                    "https://dash.plotly.com/",
+                    href="https://dash.plotly.com/",
+                ),
+            ]),
             html.Li("Show our real production Dash")
-        ),
+        ]),
     ]
 )
 
