@@ -10,10 +10,10 @@ import pandas as pd
 import numpy as np
 
 
-title = "Data table and pie chart"
+title = "Data tables and pie charts"
 
 
-description = "Demonstrate dynamic options, editable data table and pie charts"
+description = "Demonstrate dynamic options, editable data tables and pie charts"
 
 
 layout = html.Div([
